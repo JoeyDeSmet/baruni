@@ -1,6 +1,6 @@
-# siteJason
+# Baruni
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository is just a vue webapp, for my brother mini enterprise. As a assignment for his class.
 
 ## Recommended IDE Setup
 
