@@ -117,6 +117,8 @@
       />
     </v-row>
   </div>
+  <!-- Made: by Joey De Smet With Vue3 / Vuetify -->
+  <!-- Github: https://github.com/JoeyDeSmet -->
 </template>
 
 <style scoped>

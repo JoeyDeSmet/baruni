@@ -3,6 +3,8 @@
   import { computed, ref, watch } from 'vue'
   
   import logo from '@/assets/img/BarUni.webp'
+  import VLAJO from '@/assets/img/vlajo.svg'
+
 
   const theme = useTheme();
 
@@ -98,6 +100,13 @@
         </router-view>
       </v-container>
     </v-main>
+
+    <v-footer app class="d-flex justify-center align-center">
+      <div class="d-flex justify-center align-center">
+        <a class="ml-2 mr-2" href="https://www.vlajo.org"><v-img :src="VLAJO" height="75px" width="75px"></v-img></a>
+        <a class="ml-2 mr-2" href="https://www.baruni.be"><v-img :src="logo" height="75px" width="75px"></v-img></a>
+      </div>
+    </v-footer>
   </v-app>
 
   <!-- Made: by Joey De Smet With Vue3 / Vuetify -->

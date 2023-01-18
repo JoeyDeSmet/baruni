@@ -23,10 +23,9 @@
       <v-col 
         cols="12"
       >
-        <v-img 
-          cover
+        <v-parallax 
           :src="team"
-          max-height="550px"
+          height="600px"
           gradient="to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 90%"
           class="d-flex align-end justify-end"
         >
@@ -36,7 +35,7 @@
             <h1>Welkom</h1>
             <p>Wij zijn Baruni</p>
           </div>
-        </v-img>
+        </v-parallax>
       </v-col>
     </v-row>
 
@@ -90,6 +89,11 @@
             <v-spacer></v-spacer>
           </div>
     
+          <div class="ml-5 mr-5">
+            <p>Bestellen: <a data-auto-recognition="true" href="https://www.vlajo.org/vlajomarket/2863" style="text-decoration: none;">Vlaamse Jonge ondernemingen</a></p>
+            <v-spacer></v-spacer>
+          </div>
+
           <div>
             <v-btn icon="mdi-instagram" class="ma-3" href="https://www.instagram.com/baruni.vlajo/"></v-btn>
             <v-btn icon="mdi-facebook" class="ma-3" href="https://www.facebook.com/profile.php?id=100086272700290"></v-btn>
@@ -98,4 +102,7 @@
       </v-col>
     </v-row>
   </div>
+
+  <!-- Made: by Joey De Smet With Vue3 / Vuetify -->
+  <!-- Github: https://github.com/JoeyDeSmet -->
 </template>
